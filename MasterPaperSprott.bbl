@@ -1,0 +1,391 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{00}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{{\tt DOI:}\penalty0{#1}\ }
+  \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       #1{#1}          \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[\protect\citeauthoryear{Ahmad, Chugh, Goel, and Singla}{Ahmad
+  et~al\mbox{.}}{2013}]%
+        {Ahmad2013}
+\bibfield{author}{\bibinfo{person}{Musheer Ahmad}, \bibinfo{person}{Hitesh
+  Chugh}, \bibinfo{person}{Avish Goel}, {and} \bibinfo{person}{Prateek
+  Singla}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em A Chaos Based Method for Efficient
+  Cryptographic S-box Design}}.
+\newblock \bibinfo{publisher}{Springer Berlin Heidelberg},
+  \bibinfo{address}{Berlin, Heidelberg}, \bibinfo{pages}{130--137}.
+\newblock
+\showISBNx{978-3-642-40576-1}
+\showDOI{%
+\url{http://dx.doi.org/10.1007/978-3-642-40576-1_13}}
+
+
+\bibitem[\protect\citeauthoryear{Antonelli, De~Micco, and Larrondo}{Antonelli
+  et~al\mbox{.}}{2016}]%
+        {Antonelli2016}
+\bibfield{author}{\bibinfo{person}{M Antonelli}, \bibinfo{person}{L De~Micco},
+  {and} \bibinfo{person}{HA Larrondo}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Measuring the Jitter of Ring Oscillators by means
+  of Information Theory Quantifiers}.
+\newblock \bibinfo{journal}{{\em Communications in Nonlinear Science and
+  Numerical Simulation\/}} (\bibinfo{year}{2016}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Asseri, Sobhy, and Lee}{Asseri
+  et~al\mbox{.}}{2002}]%
+        {Asseri2002}
+\bibfield{author}{\bibinfo{person}{M.~A. Asseri}, \bibinfo{person}{M.~I.
+  Sobhy}, {and} \bibinfo{person}{P. Lee}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Lorenz chaotic model using field programmable gate
+  array}.
+\newblock \bibinfo{journal}{{\em The 2002 45th Midwest Symposium on Circuits
+  and Systems, 2002. MWSCAS-2002\/}}  \bibinfo{volume}{1}
+  (\bibinfo{year}{2002}), \bibinfo{pages}{I -- 527--30}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Azzaz, Tanougast, Sadoudi, Bouridane, and
+  Dandache}{Azzaz et~al\mbox{.}}{2009}]%
+        {Azzaz2009}
+\bibfield{author}{\bibinfo{person}{M.S. Azzaz}, \bibinfo{person}{C. Tanougast},
+  \bibinfo{person}{S. Sadoudi}, \bibinfo{person}{A. Bouridane}, {and}
+  \bibinfo{person}{A. Dandache}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \showarticletitle{FPGA implementation of new Real-time Image
+  Encryption based switching chaotic systems}.
+\newblock \bibinfo{journal}{{\em Signals and Systems Conference (ISSC 2009)\/}}
+  (\bibinfo{year}{2009}), \bibinfo{pages}{1 -- 6}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Bandt and Pompe}{Bandt and Pompe}{2002}]%
+        {Pompe2002}
+\bibfield{author}{\bibinfo{person}{C. Bandt} {and} \bibinfo{person}{B. Pompe}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Permutation Entropy: a Natural Complexity Measure
+  for Time Series}.
+\newblock \bibinfo{journal}{{\em Phys. Rev. Lett.\/}}  \bibinfo{volume}{88}
+  (\bibinfo{year}{2002}), \bibinfo{pages}{174102--1}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Constantinides, Cheung, and
+  Luk}{Constantinides et~al\mbox{.}}{2002}]%
+        {Constantinides2002}
+\bibfield{author}{\bibinfo{person}{G.A. Constantinides},
+  \bibinfo{person}{P.Y.K. Cheung}, {and} \bibinfo{person}{W. Luk}.}
+  \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Optimum wordlength allocation}. In
+  \bibinfo{booktitle}{{\em Field-Programmable Custom Computing Machines, 2002.
+  Proceedings. 10th Annual IEEE Symposium on}}. \bibinfo{pages}{219--228}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1109/FPGA.2002.1106676}}
+
+
+\bibitem[\protect\citeauthoryear{Constantinides, Cheung, and
+  Luk}{Constantinides et~al\mbox{.}}{2003}]%
+        {Constantinides2003}
+\bibfield{author}{\bibinfo{person}{George~A. Constantinides},
+  \bibinfo{person}{Peter Y.~K. Cheung}, {and} \bibinfo{person}{Wayne Luk}.}
+  \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Wordlength optimization for linear digital signal
+  processing}.
+\newblock \bibinfo{journal}{{\em IEEE Trans. Computer-Aided Design of
+  Integrated Circuits and Systems\/}}  \bibinfo{volume}{22}
+  (\bibinfo{year}{2003}), \bibinfo{pages}{1432--1442}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Micco, Arizmendi, and Larrondo}{De~Micco
+  et~al\mbox{.}}{2007}]%
+        {DeMicco2007B}
+\bibfield{author}{\bibinfo{person}{L. De~Micco}, \bibinfo{person}{C.~M.
+  Arizmendi}, {and} \bibinfo{person}{H.~A. Larrondo}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Zipping characterization of chaotic sequences used
+  in spread spectrum communication systems}.
+\newblock \bibinfo{journal}{{\em Institute of Physics Conference Proceedings
+  913\/}} (\bibinfo{year}{2007}), \bibinfo{pages}{139--144}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Micco, Fern\'andez, Larrondo, Plastino, and
+  Rosso}{De~Micco et~al\mbox{.}}{2012}]%
+        {DeMicco2011}
+\bibfield{author}{\bibinfo{person}{L. De~Micco}, \bibinfo{person}{J.~G.
+  Fern\'andez}, \bibinfo{person}{H.~A. Larrondo}, \bibinfo{person}{A.
+  Plastino}, {and} \bibinfo{person}{O.~A. Rosso}.}
+  \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Sampling period, statistical complexity, and
+  chaotic attractors}.
+\newblock \bibinfo{journal}{{\em Physica A\/}} \bibinfo{volume}{391},
+  \bibinfo{number}{8} (\bibinfo{year}{2012}), \bibinfo{pages}{2564Ð2575}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Micco, Gonz\'alez, Larrondo, Martin,
+  Plastino, and Rosso}{De~Micco et~al\mbox{.}}{2008}]%
+        {DeMicco2008}
+\bibfield{author}{\bibinfo{person}{L. De~Micco}, \bibinfo{person}{C.~M.
+  Gonz\'alez}, \bibinfo{person}{H.~A. Larrondo}, \bibinfo{person}{M.~T.
+  Martin}, \bibinfo{person}{A. Plastino}, {and} \bibinfo{person}{O.~A. Rosso}.}
+  \bibinfo{year}{2008}\natexlab{}.
+\newblock \showarticletitle{Randomizing nonlinear maps via symbolic dynamics}.
+\newblock \bibinfo{journal}{{\em Physica A\/}}  \bibinfo{volume}{387}
+  (\bibinfo{year}{2008}), \bibinfo{pages}{3373--3383}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Micco, Petrocelli, Carrica, and
+  Larrondo}{De~Micco et~al\mbox{.}}{2007b}]%
+        {DeMicco2007C}
+\bibfield{author}{\bibinfo{person}{L. De~Micco}, \bibinfo{person}{R.~A.
+  Petrocelli}, \bibinfo{person}{D.~O. Carrica}, {and} \bibinfo{person}{H.~A.
+  Larrondo}.} \bibinfo{year}{2007}\natexlab{b}.
+\newblock \showarticletitle{Muestreo caótico para la adquisición de señales de
+  baja frecuencia con ruido de alta frecuencia}.
+\newblock \bibinfo{journal}{{\em Proceedings de la XII Reunión de Trabajo en
+  Procesamiento de la Información y Control\/}} (\bibinfo{year}{2007}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{De~Micco, Petrocelli, and Larrondo}{De~Micco
+  et~al\mbox{.}}{2007a}]%
+        {DeMicco2007A}
+\bibfield{author}{\bibinfo{person}{L. De~Micco}, \bibinfo{person}{R.~A.
+  Petrocelli}, {and} \bibinfo{person}{H.~A. Larrondo}.}
+  \bibinfo{year}{2007}\natexlab{a}.
+\newblock \showarticletitle{Constant Envelope Wideband Signals using Arbitrary
+  Chaotic Maps}.
+\newblock \bibinfo{journal}{{\em Proceedings of XII RPIC\/}}
+  (\bibinfo{year}{2007}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{{Dias}, {Longa}, and {Curado}}{{Dias}
+  et~al\mbox{.}}{2011}]%
+        {Dias2011}
+\bibfield{author}{\bibinfo{person}{S.~P. {Dias}}, \bibinfo{person}{L. {Longa}},
+  {and} \bibinfo{person}{E. {Curado}}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{{Influence of the finite precision on the
+  simulations of discrete dynamical systems}}.
+\newblock \bibinfo{journal}{{\em Communications in Nonlinear Science and
+  Numerical Simulations\/}}  \bibinfo{volume}{16} (\bibinfo{date}{March}
+  \bibinfo{year}{2011}), \bibinfo{pages}{1574--1579}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1016/j.cnsns.2010.07.003}}
+
+
+\bibitem[\protect\citeauthoryear{Ding, Pang, Fang, and Peng}{Ding
+  et~al\mbox{.}}{2007}]%
+        {Ding2007}
+\bibfield{author}{\bibinfo{person}{Qun Ding}, \bibinfo{person}{Jing Pang},
+  \bibinfo{person}{Jinqing Fang}, {and} \bibinfo{person}{Xiyuan Peng}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Designing of chaotic system output sequence circuit
+  based on fpga and its applications in network encryption card}.
+\newblock \bibinfo{journal}{{\em International Journal of Innovative Computing,
+  Information and Control\/}}  \bibinfo{volume}{3} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1 -- 6}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Grebogi, Ott, and Yorke}{Grebogi
+  et~al\mbox{.}}{1988}]%
+        {Grebogi1988}
+\bibfield{author}{\bibinfo{person}{Celso Grebogi}, \bibinfo{person}{Edward
+  Ott}, {and} \bibinfo{person}{James~A. Yorke}.}
+  \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Roundoff-induced periodicity and the correlation
+  dimension of chaotic attractors}.
+\newblock \bibinfo{journal}{{\em Phys. Rev. A\/}}  \bibinfo{volume}{38}
+  (\bibinfo{date}{Oct} \bibinfo{year}{1988}), \bibinfo{pages}{3688--3692}.
+\newblock
+Issue 7.
+\showDOI{%
+\url{http://dx.doi.org/10.1103/PhysRevA.38.3688}}
+
+
+\bibitem[\protect\citeauthoryear{Hussain, Shah, Gondal, and Mahmood}{Hussain
+  et~al\mbox{.}}{2013}]%
+        {Hussain2013}
+\bibfield{author}{\bibinfo{person}{Iqtadar Hussain}, \bibinfo{person}{Tariq
+  Shah}, \bibinfo{person}{Muhammad~Asif Gondal}, {and} \bibinfo{person}{Hasan
+  Mahmood}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Efficient method for designing chaotic S-boxes
+  based on generalized Baker's map and TDERC chaotic sequence}.
+\newblock \bibinfo{journal}{{\em Nonlinear Dynamics\/}} \bibinfo{volume}{74},
+  \bibinfo{number}{1} (\bibinfo{year}{2013}), \bibinfo{pages}{271--275}.
+\newblock
+\showISSN{1573-269X}
+\showDOI{%
+\url{http://dx.doi.org/10.1007/s11071-013-0963-z}}
+
+
+\bibitem[\protect\citeauthoryear{Lasota and Mackey}{Lasota and Mackey}{1994}]%
+        {Lasota1994}
+\bibfield{author}{\bibinfo{person}{A. Lasota} {and} \bibinfo{person}{M.~C.
+  Mackey}.} \bibinfo{year}{1994}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Chaos, Fractals, and Noise: Stochastic
+  Aspects of Dynamics.\/} (\bibinfo{edition}{2nd. edition.} ed.)}.
+\newblock \bibinfo{publisher}{Springer Verlag}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Lasota and Yorke}{Lasota and Yorke}{1973}]%
+        {Lasota1973}
+\bibfield{author}{\bibinfo{person}{A. Lasota} {and} \bibinfo{person}{J.~A.
+  Yorke}.} \bibinfo{year}{1973}\natexlab{}.
+\newblock \showarticletitle{On the existence of invariant measure for piecewise
+  monotonic transformations}.
+\newblock \bibinfo{journal}{{\em Trans. Amer. Math. Soc.\/}}
+  \bibinfo{volume}{186} (\bibinfo{year}{1973}), \bibinfo{pages}{481--488}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{LI, Chen, and Mou}{LI et~al\mbox{.}}{2005}]%
+        {SHUJUN2005}
+\bibfield{author}{\bibinfo{person}{Shujun LI}, \bibinfo{person}{Guanrong Chen},
+  {and} \bibinfo{person}{Xuanqin Mou}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{On the dynamical degradation of digital piecewise
+  linear chaotic maps}.
+\newblock \bibinfo{journal}{{\em Int. J. Bifurcation Chaos\/}}
+  \bibinfo{volume}{15} (\bibinfo{year}{2005}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mart\'{\i}n and Plastino}{Mart\'{\i}n and
+  Plastino}{2006}]%
+        {Martin2006}
+\bibfield{author}{\bibinfo{person}{M.~T. Mart\'{\i}n} {and} \bibinfo{person}{A.
+  Plastino}.} \bibinfo{year}{2006}\natexlab{}.
+\newblock \showarticletitle{Generalized statistical complexity measures:
+  Geometrical and analytical properties}.
+\newblock \bibinfo{journal}{{\em Physica A\/}}  \bibinfo{volume}{369}
+  (\bibinfo{year}{2006}), \bibinfo{pages}{439--462}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Mischaikow, Mrozek, Reiss, and
+  Szymczak}{Mischaikow et~al\mbox{.}}{}]%
+        {Mischaikow1999}
+\bibfield{author}{\bibinfo{person}{K. Mischaikow}, \bibinfo{person}{M. Mrozek},
+  \bibinfo{person}{J. Reiss}, {and} \bibinfo{person}{A. Szymczak}.}
+\newblock \showarticletitle{Construction of symbolic dynamics from experimental
+  time series.}
+\newblock \bibinfo{journal}{{\em Phys. Rev. Lett. , YEAR = {1999}, volume =
+  {82}, number = {}, pages = {1114-1147}, month = {}, note = {}, abstract = {},
+  keywords = {}, source = {}\/}} (\bibinfo{year}{????}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Powell and Percival}{Powell and Percival}{}]%
+        {Powell1979}
+\bibfield{author}{\bibinfo{person}{G.~E. Powell} {and} \bibinfo{person}{I.~C..
+  Percival}.}
+\newblock \showarticletitle{A spectral entropymethod for distinguishing regular
+  and irregular motion of hamiltonian systems.}
+\newblock \bibinfo{journal}{{\em J. Phys. A, YEAR = {1979}, volume = {12},
+  number = {}, pages = {2053-2071}, month = {}, note = {}, abstract = {},
+  keywords = {}, source = {}\/}} (\bibinfo{year}{????}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rosso, Blanco, Jordanova, Kolev, Figliola,
+  Sch\"urmann, and Ba\c{s}ar}{Rosso et~al\mbox{.}}{2001}]%
+        {Rosso2001}
+\bibfield{author}{\bibinfo{person}{O.~A. Rosso}, \bibinfo{person}{S. Blanco},
+  \bibinfo{person}{J. Jordanova}, \bibinfo{person}{V. Kolev},
+  \bibinfo{person}{A. Figliola}, \bibinfo{person}{M. Sch\"urmann}, {and}
+  \bibinfo{person}{E. Ba\c{s}ar}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{Wavelet Entropy: a new tool for analysis of short
+  duration brain electrical signals}.
+\newblock \bibinfo{journal}{{\em Journal of Neuroscience Methods\/}}
+  \bibinfo{volume}{105} (\bibinfo{year}{2001}), \bibinfo{pages}{65--75}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rosso, De~Micco, Larrondo, Martin, and
+  Plastino}{Rosso et~al\mbox{.}}{2010}]%
+        {Rosso2009}
+\bibfield{author}{\bibinfo{person}{O.~A. Rosso}, \bibinfo{person}{L. De~Micco},
+  \bibinfo{person}{H.~A. Larrondo}, \bibinfo{person}{M.~T. Martin}, {and}
+  \bibinfo{person}{A. Plastino}.} \bibinfo{year}{2010}\natexlab{}.
+\newblock \showarticletitle{Generalized Statistical Complexity Measure: a new
+  tool for dynamical systems}.
+\newblock \bibinfo{journal}{{\em International Journal of Bifurcation and
+  Chaos, Vol. , No. 3 (2010) .\/}} \bibinfo{volume}{20}, \bibinfo{number}{3}
+  (\bibinfo{year}{2010}), \bibinfo{pages}{775Ð785}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Rosso, Larrondo, Martin, Plastino, and
+  Fuentes}{Rosso et~al\mbox{.}}{2007}]%
+        {Rosso2007A}
+\bibfield{author}{\bibinfo{person}{O.~A. Rosso}, \bibinfo{person}{H.~A
+  Larrondo}, \bibinfo{person}{M.~T. Martin}, \bibinfo{person}{A. Plastino},
+  {and} \bibinfo{person}{M.~A. Fuentes}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Distinguishing noise from chaos}.
+\newblock \bibinfo{journal}{{\em Physs. Rev. Lett., pp154102-154106\/}}
+  \bibinfo{volume}{99} (\bibinfo{year}{2007}).
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sprott}{Sprott}{2003}]%
+        {Sprott2003}
+\bibfield{author}{\bibinfo{person}{J Sprott}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \bibinfo{booktitle}{{\em Chaos and Time-Series Analysis}}.
+\newblock \bibinfo{publisher}{Oxford University Press}.
+\newblock
+
+
+\bibitem[\protect\citeauthoryear{Sprott}{Sprott}{1993}]%
+        {Sprott1993}
+\bibfield{author}{\bibinfo{person}{Julien~Clinton Sprott}.}
+  \bibinfo{year}{1993}\natexlab{}.
+\newblock \showarticletitle{Automatic generation of strange attractors}.
+\newblock \bibinfo{journal}{{\em Computers \& Graphics\/}}
+  \bibinfo{volume}{17}, \bibinfo{number}{3} (\bibinfo{year}{1993}),
+  \bibinfo{pages}{325--332}.
+\newblock
+\showDOI{%
+\url{http://dx.doi.org/10.1016/0097-8493(93)90082-K}}
+
+
+\end{thebibliography}

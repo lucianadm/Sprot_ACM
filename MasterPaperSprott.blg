@@ -1,0 +1,44 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: MasterPaperSprott.aux
+The style file: ACM-Reference-Format.bst
+Database file #1: BibPaperSprott.bib
+I was expecting a `,' or a `}'---line 317 of file BibPaperSprott.bib
+ : 
+ : @ARTICLE{Powell1979,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 333 of file BibPaperSprott.bib
+ : 
+ : @ARTICLE{Rosso2009c,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 350 of file BibPaperSprott.bib
+ : 
+ : @ARTICLE{Keller2005,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 1751 of file BibPaperSprott.bib
+ : @article{Mischaikow1999
+ :                        ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1766 of file BibPaperSprott.bib
+ : @article{Powell1979
+ :                    ,
+I'm skipping whatever remains of this entry
+Warning--can't use both author and editor fields in Ahmad2013
+Warning--no number and no volume in Antonelli2016
+Warning--page numbers missing in both pages and numpages fields in Antonelli2016
+Warning--no number and no volume in Azzaz2009
+Warning--empty publisher in Constantinides2002
+Warning--empty address in Constantinides2002
+Warning--no number and no volume in DeMicco2007B
+Warning--no number and no volume in DeMicco2007C
+Warning--no number and no volume in DeMicco2007A
+Warning--empty address in Lasota1994
+Warning--empty year in Mischaikow1999
+Warning--no number and no volume in Mischaikow1999
+Warning--page numbers missing in both pages and numpages fields in Mischaikow1999
+Warning--empty year in Powell1979
+Warning--no number and no volume in Powell1979
+Warning--page numbers missing in both pages and numpages fields in Powell1979
+Warning--empty address in Sprott2003
+(There were 5 error messages)
