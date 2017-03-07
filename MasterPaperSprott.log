@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2016.8.5)  6 MAR 2017 20:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=latex 2016.12.5)  7 MAR 2017 13:46
 entering extended mode
 **MasterPaperSprott.tex
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.tex
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -13,7 +13,7 @@ german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\luciana\Documents\GitHub\paperSPROT\acmart.cls
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\acmart.cls
 Document Class: acmart 2016/12/03 v1.25 Typesetting articles for Association of
  Computing Machinery
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
@@ -195,7 +195,7 @@ Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -208,7 +208,7 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
@@ -280,12 +280,20 @@ LaTeX Info: Redefining \pageref on input line 6369.
 \c@Hfootnote=\count110
 )
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+Package hyperref Message: Driver (default): hdvips.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count111
-\c@bookmark@seq@number=\count112
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hdvips.def"
+File: hdvips.def 2012/11/06 v6.83m Hyperref driver for dvips
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pdfmark.def"
+File: pdfmark.def 2012/11/06 v6.83m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks28
+\pdf@box=\box29
+\pdf@toks=\toks29
+\pdf@defaulttoks=\toks30
+\HyField@AnnotCount=\count111
+\Fld@listcount=\count112
+\c@bookmark@seq@number=\count113
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -293,7 +301,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip54
-)
+))
 Package hyperref Info: Option `colorlinks' set `true' on input line 376.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
@@ -308,11 +316,10 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: dvips.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-\Gread@gobject=\count113
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen119
 \Gin@req@width=\dimen120
@@ -323,9 +330,8 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: dvips.def on input line 225.
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
@@ -347,7 +353,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen126
 \Gm@layouthoffset=\dimen127
 \Gm@layoutvoffset=\dimen128
-\Gm@dimlist=\toks28
+\Gm@dimlist=\toks31
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ncctools\manyfoot.sty"
@@ -618,12 +624,12 @@ Package caption Info: hyperref package is loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count121
-\float@exts=\toks29
-\float@box=\box29
-\@float@everytoks=\toks30
-\@floatcapt=\box30
+\float@exts=\toks32
+\float@box=\box30
+\@float@everytoks=\toks33
+\@floatcapt=\box31
 )
-\@float@every@sidebar=\toks31
+\@float@every@sidebar=\toks34
 \c@sidebar=\count122
 \fulltextwidth=\dimen137
 \num@authorgroups=\count123
@@ -638,9 +644,9 @@ Class acmart Info: Printing folios on input line 1044.
 \CommentStream=\write3
 
 Excluding comment 'comment') Excluding comment 'CCSXML'
-\mktitle@bx=\box31
-\@ACM@commabox=\box32
-\author@bx=\box33
+\mktitle@bx=\box32
+\@ACM@commabox=\box33
+\author@bx=\box34
 \author@bx@wd=\dimen138
 \author@bx@sep=\skip58
 
@@ -656,7 +662,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip66
 \f@ncyO@orf=\skip67
 )
-\ACM@linecount@bx=\box34
+\ACM@linecount@bx=\box35
 \ACM@linecount@bxht=\skip68
 
 Underfull \hbox (badness 10000) in paragraph at lines 1835--1835
@@ -743,16 +749,16 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \interspacealgoruled=\dimen159
 \interspacetitleboxruled=\dimen160
 \algocf@ruledwidth=\skip78
-\algocf@inoutbox=\box35
-\algocf@inputbox=\box36
+\algocf@inoutbox=\box36
+\algocf@inputbox=\box37
 \AlCapSkip=\skip79
 \AlCapHSkip=\skip80
 \algoskipindent=\skip81
-\algocf@nlbox=\box37
-\algocf@hangingbox=\box38
-\algocf@untilbox=\box39
+\algocf@nlbox=\box38
+\algocf@hangingbox=\box39
+\algocf@untilbox=\box40
 \algocf@skipuntil=\skip82
-\algocf@capbox=\box40
+\algocf@capbox=\box41
 \algoheightruledefault=\skip83
 \algoheightrule=\skip84
 \algotitleheightruledefault=\skip85
@@ -760,18 +766,18 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \c@algocfline=\count130
 \c@algocfproc=\count131
 \c@algocf=\count132
-\algocf@algoframe=\box41
-\algocf@algobox=\box42
+\algocf@algoframe=\box42
+\algocf@algobox=\box43
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\enitkv@toks@=\toks32
+\enitkv@toks@=\toks35
 \labelindent=\skip87
 \enit@outerparindent=\dimen161
-\enit@toks=\toks33
-\enit@inbox=\box43
+\enit@toks=\toks36
+\enit@inbox=\box44
 \enitdp@description=\count133
 )
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.aux
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.aux
 
 LaTeX Warning: Label `tabla:MLE' multiply defined.
 
@@ -859,12 +865,10 @@ LaTeX Font Info:    Try loading font information for U+ntxsyc on input line 35.
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Info: Redefining \microtypecontext on input line 35.
-Package microtype Info: Generating PDF output.
+Package microtype Info: Generating DVI output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No font expansion.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -874,7 +878,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box44
+\AtBeginShipoutBox=\box45
 Package hyperref Info: Link coloring ON on input line 35.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
@@ -889,28 +893,14 @@ LaTeX Info: Redefining \ref on input line 35.
 LaTeX Info: Redefining \pageref on input line 35.
 LaTeX Info: Redefining \nameref on input line 35.
 
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.out)
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.out)
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.out)
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.out)
 \@outlinefile=\write4
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count135
-\scratchdimen=\dimen162
-\scratchbox=\box45
-\nofMPsegments=\count136
-\nofMParguments=\count137
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count138
-\MPscratchDim=\dimen163
-\MPnumerator=\count139
-\makeMPintoPDFobject=\count140
-\everyMPtoPDFconversion=\toks35
-)
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -941,8 +931,8 @@ LaTeX Info: Redefining \nameref on input line 35.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@mv@tabular=\count141
-\c@mv@boldtabular=\count142
+\c@mv@tabular=\count135
+\c@mv@boldtabular=\count136
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\upquote\upquote.sty"
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
@@ -951,11 +941,11 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 97.
+(Font)              scaled to size 12.0pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 97.
+(Font)              scaled to size 12.0pt on input line 96.
 LaTeX Font Info:    Try loading font information for OT1+LinuxBiolinumT-TLF on 
-input line 97.
+input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\libertine\ot1linuxbiolinumt-tlf.f
 d"
@@ -965,19 +955,19 @@ inuxBiolinumT-TLF.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <12> not a
 vailable
 (Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on in
-put line 97.
+put line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 97.
+(Font)              scaled to size 12.0pt on input line 96.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 97.
+(Font)              scaled to size 12.0pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.8pt on input line 97.
+(Font)              scaled to size 8.8pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.6pt on input line 97.
+(Font)              scaled to size 6.6pt on input line 96.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-msa.cfg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
@@ -985,13 +975,13 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 97.
+(Font)              scaled to size 10.95pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 97.
+(Font)              scaled to size 10.95pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 97.
+(Font)              scaled to size 9.0pt on input line 96.
 LaTeX Font Info:    Try loading font information for TS1+LinuxLibertineT-TLF on
- input line 97.
+ input line 96.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\libertine\ts1linuxlibertinet-tlf.
 fd"
@@ -999,41 +989,41 @@ File: TS1LinuxLibertineT-TLF.fd 2012/11/26 (autoinst) Font definitions for TS1/
 LinuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 97.
+(Font)              scaled to size 7.0pt on input line 96.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 97.
+(Font)              scaled to size 8.0pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 97.
+(Font)              scaled to size 6.2pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/sl' in size <8> not a
 vailable
 (Font)              Font shape `OT1/LinuxLibertineT-TLF/m/it' tried instead on 
-input line 97.
+input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 97.
+(Font)              scaled to size 8.0pt on input line 96.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 8.0pt on input line 97.
+(Font)              scaled to size 8.0pt on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unskip' on input line 97.
+(hyperref)                removing `\unskip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\unskip' on input line 97.
+(hyperref)                removing `\unskip' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 97.
+(hyperref)                removing `math shift' on input line 96.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 97.
+(hyperref)                removing `math shift' on input line 96.
 
-(C:\Users\luciana\Documents\GitHub\paperSPROT\Introduction.tex
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\Introduction.tex
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/bx/n' in size <9> not av
 ailable
 (Font)              Font shape `OT1/LinuxBiolinumT-TLF/b/n' tried instead on in
@@ -1046,399 +1036,686 @@ vailable
 input line 16.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 9.0pt on input line 16.
- [1.1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2.2])
-(C:\Users\luciana\Documents\GitHub\paperSPROT\ProblemStatement.tex)
-(C:\Users\luciana\Documents\GitHub\paperSPROT\ChaoticSystemUnderStudy.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [1.1]
+Underfull \vbox (badness 3128) has occurred while \output is active []
 
- [3.3]
-Overfull \hbox (101.84306pt too wide) in paragraph at lines 18--20
-[]\OT1/LinuxLibertineT-TLF/m/n/9 (-20) Figures [][]2[][].a to [][]2[][].d show 
+ [2.2])
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\ProblemStatement.tex)
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\ChaoticSystemUnderStudy.tex
+[3.3]
+Overfull \hbox (108.91525pt too wide) in paragraph at lines 18--20
+[]\OT1/LinuxLibertineT-TLF/m/n/9 Figures [][][][][][].a to [][][][][][].d show 
 the same three at-trac-tors $\OML/nxlmi/m/it/9 A[]$ \OT1/LinuxLibertineT-TLF/m/
-n/9 (-20) to $\OML/nxlmi/m/it/9 A[]$ \OT1/LinuxLibertineT-TLF/m/n/9 (-20) and a
-lso the at-trac-tor with $\OML/nxlmi/m/it/9 A[] \U/ntxmia/m/it/9 = \LMS/ntxsy/m
-/n/9 f \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 1\OML/nxlmi/m/it/9 ; \OT1/LinuxLibe
-rtineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20)
- 9\OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :
-\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 4\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT
-1/LinuxLibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/
-m/n/9 (-20) 2\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n
-/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 6\OML/nxlmi/m
-/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it
-/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 5\OML/nxlmi/m/it/9 ; \OT1/LinuxLiberti
-neT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 4\
-OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT
-1/LinuxLibertineT-TLF/m/n/9 (-20) 7\OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF
-/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 3\OML/nxl
-mi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/
-m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 5\OML/nxlmi/m/it/9 ; \OT1/LinuxLib
-ertineT-TLF/m/n/9 (-20) 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20
-) 7\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n/9 (-20) 0
-\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 (-20) 8\LMS/ntxsy/m/n/9 g$\OT
-1/LinuxLibertineT-TLF/m/n/9 (-20) ,
+n/9 to $\OML/nxlmi/m/it/9 A[]$ \OT1/LinuxLibertineT-TLF/m/n/9 and also the at-t
+rac-tor with $\OML/nxlmi/m/it/9 A[] \U/ntxmia/m/it/9 = \LMS/ntxsy/m/n/9 f \OT1/
+LinuxLibertineT-TLF/m/n/9 1\OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 0
+\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 9\OML/nxlmi/m/it/9 ; \OT1/Lin
+uxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 4\OML
+/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/
+it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 2\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT
+1/LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 
+6\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertineT-TLF/m/n/9 0\OML/nxl
+mi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 5\OML/nxlmi/m/it/9 ; \OT1/LinuxLibert
+ineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 4\OML/nxlmi/m
+/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT
+-TLF/m/n/9 7\OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it
+/9 :\OT1/LinuxLibertineT-TLF/m/n/9 3\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/
+LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 5\
+OML/nxlmi/m/it/9 ; \OT1/LinuxLibertineT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/Linu
+xLibertineT-TLF/m/n/9 7\OML/nxlmi/m/it/9 ; \LMS/ntxsy/m/n/9  \OT1/LinuxLibertin
+eT-TLF/m/n/9 0\OML/nxlmi/m/it/9 :\OT1/LinuxLibertineT-TLF/m/n/9 8\LMS/ntxsy/m/n
+/9 g$\OT1/LinuxLibertineT-TLF/m/n/9 ,
  []
 
-<Images/atractoreslindos.pdf, id=146, 1281.78876pt x 869.2475pt>
-File: Images/atractoreslindos.pdf Graphic file (type pdf)
 
-<use Images/atractoreslindos.pdf>
-Package pdftex.def Info: Images/atractoreslindos.pdf used on input line 24.
-(pdftex.def)             Requested size: 430.00462pt x 291.60094pt.
+! LaTeX Error: File `atractoreslindos' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...ics[width=1\columnwidth]{atractoreslindos}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...s[width=1\columnwidth]{atractoreslindos}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 25.
 
-<Images/Atractor3_condominio_ok.pdf, id=147, 907.39pt x 653.44125pt>
-File: Images/Atractor3_condominio_ok.pdf Graphic file (type pdf)
+! LaTeX Error: File `Atractor3_condominio_ok' not found.
 
-<use Images/Atractor3_condominio_ok.pdf>
-Package pdftex.def Info: Images/Atractor3_condominio_ok.pdf used on input line 
-32.
-(pdftex.def)             Requested size: 215.0023pt x 154.82498pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...th=0.5\textwidth]{Atractor3_condominio_ok}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/Atractor5_condominio_ok.pdf, id=148, 907.39pt x 653.44125pt>
-File: Images/Atractor5_condominio_ok.pdf Graphic file (type pdf)
 
-<use Images/Atractor5_condominio_ok.pdf>
-Package pdftex.def Info: Images/Atractor5_condominio_ok.pdf used on input line 
-33.
-(pdftex.def)             Requested size: 215.0023pt x 154.82498pt.
+! LaTeX Error: File `Atractor5_condominio_ok' not found.
 
-<Images/Atractor9_condominio_ok.pdf, id=149, 907.39pt x 653.44125pt>
-File: Images/Atractor9_condominio_ok.pdf Graphic file (type pdf)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...th=0.5\textwidth]{Atractor5_condominio_ok}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use Images/Atractor9_condominio_ok.pdf>
-Package pdftex.def Info: Images/Atractor9_condominio_ok.pdf used on input line 
-34.
-(pdftex.def)             Requested size: 215.0023pt x 154.82498pt.
 
-<Images/Atractor2_condominio_ok.pdf, id=150, 907.39pt x 653.44125pt>
-File: Images/Atractor2_condominio_ok.pdf Graphic file (type pdf)
+! LaTeX Error: File `Atractor9_condominio_ok' not found.
 
-<use Images/Atractor2_condominio_ok.pdf>
-Package pdftex.def Info: Images/Atractor2_condominio_ok.pdf used on input line 
-35.
-(pdftex.def)             Requested size: 215.0023pt x 154.82498pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...th=0.5\textwidth]{Atractor9_condominio_ok}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-Overfull \hbox (12.24998pt too wide) in paragraph at lines 31--38
- [][] 
- []
 
-) (C:\Users\luciana\Documents\GitHub\paperSPROT\AnalysisTools.tex [4.4 <C:/User
-s/luciana/Documents/GitHub/paperSPROT/Images/atractoreslindos.pdf>] [5.5 <C:/Us
-ers/luciana/Documents/GitHub/paperSPROT/Images/Atractor3_condominio_ok.pdf> <C:
-/Users/luciana/Documents/GitHub/paperSPROT/Images/Atractor5_condominio_ok.pdf> 
-<C:/Users/luciana/Documents/GitHub/paperSPROT/Images/Atractor9_condominio_ok.pd
-f> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/Atractor2_condominio_ok
-.pdf>]
+! LaTeX Error: File `Atractor2_condominio_ok' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...th=0.5\textwidth]{Atractor2_condominio_ok}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\AnalysisTools.tex
+Underfull \vbox (badness 1281) has occurred while \output is active []
+
+ [4.4]
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 34.
+(Font)              scaled to size 9.0pt on input line 37.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[5.5]
+LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 107.
 
- [6.6]
-LaTeX Font Info:    Try loading font information for OT1+zi4 on input line 104.
-
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\inconsolata\ot1zi4.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\inconsolata\ot1zi4.fd"
 File: ot1zi4.fd 2016/12/29 OT1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 9.0pt on input line 104.
+(Font)              scaled to size 9.0pt on input line 107.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zi4' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7.7])
-(C:\Users\luciana\Documents\GitHub\paperSPROT\HardwareDigitalSimulation.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8.8]
-[9.9]) (C:\Users\luciana\Documents\GitHub\paperSPROT\Results.tex
-<Images/m5_lu.pdf, id=288, 903.375pt x 677.53125pt>
-File: Images/m5_lu.pdf Graphic file (type pdf)
- <use Images/m5_lu.pdf>
-Package pdftex.def Info: Images/m5_lu.pdf used on input line 10.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+Underfull \vbox (badness 3746) has occurred while \output is active []
 
-<Images/m6_lu.pdf, id=289, 903.375pt x 677.53125pt>
-File: Images/m6_lu.pdf Graphic file (type pdf)
- <use Images/m6_lu.pdf>
-Package pdftex.def Info: Images/m6_lu.pdf used on input line 11.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+ [6.6])
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\HardwareDigitalSimulation.tex
+[7.7] [8.8]) (C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\Results.tex
 
-<Images/m7_lu.pdf, id=290, 903.375pt x 677.53125pt>
-File: Images/m7_lu.pdf Graphic file (type pdf)
- <use Images/m7_lu.pdf>
-Package pdftex.def Info: Images/m7_lu.pdf used on input line 12.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+! LaTeX Error: File `m5_lu' not found.
 
-<Images/m8_lu.pdf, id=291, 903.375pt x 677.53125pt>
-File: Images/m8_lu.pdf Graphic file (type pdf)
- <use Images/m8_lu.pdf>
-Package pdftex.def Info: Images/m8_lu.pdf used on input line 13.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \includegraphics[width=0.3\textwidth]{m5_lu}
+                                                 
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m9_lu.pdf, id=292, 903.375pt x 677.53125pt>
-File: Images/m9_lu.pdf Graphic file (type pdf)
- <use Images/m9_lu.pdf>
-Package pdftex.def Info: Images/m9_lu.pdf used on input line 14.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
 
-<Images/m10_lu.pdf, id=293, 903.375pt x 677.53125pt>
-File: Images/m10_lu.pdf Graphic file (type pdf)
- <use Images/m10_lu.pdf>
-Package pdftex.def Info: Images/m10_lu.pdf used on input line 15.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+! LaTeX Error: File `m6_lu' not found.
 
-<Images/m11_lu.pdf, id=294, 903.375pt x 677.53125pt>
-File: Images/m11_lu.pdf Graphic file (type pdf)
- <use Images/m11_lu.pdf>
-Package pdftex.def Info: Images/m11_lu.pdf used on input line 16.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \includegraphics[width=0.3\textwidth]{m6_lu}
+                                                 
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m12_lu.pdf, id=295, 903.375pt x 677.53125pt>
-File: Images/m12_lu.pdf Graphic file (type pdf)
- <use Images/m12_lu.pdf>
-Package pdftex.def Info: Images/m12_lu.pdf used on input line 17.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
 
-<Images/m13_lu.pdf, id=296, 903.375pt x 677.53125pt>
-File: Images/m13_lu.pdf Graphic file (type pdf)
- <use Images/m13_lu.pdf>
-Package pdftex.def Info: Images/m13_lu.pdf used on input line 18.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+! LaTeX Error: File `m7_lu' not found.
 
-<Images/m14_lu.pdf, id=297, 903.375pt x 677.53125pt>
-File: Images/m14_lu.pdf Graphic file (type pdf)
- <use Images/m14_lu.pdf>
-Package pdftex.def Info: Images/m14_lu.pdf used on input line 19.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \includegraphics[width=0.3\textwidth]{m7_lu}
+                                                 \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m17_lu.pdf, id=298, 903.375pt x 677.53125pt>
-File: Images/m17_lu.pdf Graphic file (type pdf)
- <use Images/m17_lu.pdf>
-Package pdftex.def Info: Images/m17_lu.pdf used on input line 20.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
 
-<Images/m18_lu.pdf, id=299, 903.375pt x 677.53125pt>
-File: Images/m18_lu.pdf Graphic file (type pdf)
- <use Images/m18_lu.pdf>
-Package pdftex.def Info: Images/m18_lu.pdf used on input line 21.
-(pdftex.def)             Requested size: 129.00269pt x 96.74562pt.
+! LaTeX Error: File `m8_lu' not found.
 
-<Images/m_zoom.pdf, id=309, 903.375pt x 677.53125pt>
-File: Images/m_zoom.pdf Graphic file (type pdf)
- <use Images/m_zoom.pdf>
-Package pdftex.def Info: Images/m_zoom.pdf used on input line 40.
-(pdftex.def)             Requested size: 206.40038pt x 154.79507pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \includegraphics[width=0.3\textwidth]{m8_lu}
+                                                 
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m14_lu_zoom.pdf, id=310, 903.375pt x 677.53125pt>
-File: Images/m14_lu_zoom.pdf Graphic file (type pdf)
 
-<use Images/m14_lu_zoom.pdf>
-Package pdftex.def Info: Images/m14_lu_zoom.pdf used on input line 41.
-(pdftex.def)             Requested size: 206.40038pt x 154.79507pt.
+! LaTeX Error: File `m9_lu' not found.
 
-<Images/m17_lu_zoom.pdf, id=311, 903.375pt x 677.53125pt>
-File: Images/m17_lu_zoom.pdf Graphic file (type pdf)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \includegraphics[width=0.3\textwidth]{m9_lu}
+                                                 
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use Images/m17_lu_zoom.pdf>
-Package pdftex.def Info: Images/m17_lu_zoom.pdf used on input line 42.
-(pdftex.def)             Requested size: 206.40038pt x 154.79507pt.
 
-<Images/m18_lu_zoom.pdf, id=312, 903.375pt x 677.53125pt>
-File: Images/m18_lu_zoom.pdf Graphic file (type pdf)
+! LaTeX Error: File `m10_lu' not found.
 
-<use Images/m18_lu_zoom.pdf>
-Package pdftex.def Info: Images/m18_lu_zoom.pdf used on input line 43.
-(pdftex.def)             Requested size: 206.40038pt x 154.79507pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \includegraphics[width=0.3\textwidth]{m10_lu}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m5.pdf, id=314, 902.37125pt x 677.53125pt>
-File: Images/m5.pdf Graphic file (type pdf)
- <use Images/m5.pdf>
-Package pdftex.def Info: Images/m5.pdf used on input line 57.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
 
-<Images/m6.pdf, id=315, 902.37125pt x 677.53125pt>
-File: Images/m6.pdf Graphic file (type pdf)
- <use Images/m6.pdf>
-Package pdftex.def Info: Images/m6.pdf used on input line 58.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+! LaTeX Error: File `m11_lu' not found.
 
-<Images/m7.pdf, id=316, 902.37125pt x 677.53125pt>
-File: Images/m7.pdf Graphic file (type pdf)
- <use Images/m7.pdf>
-Package pdftex.def Info: Images/m7.pdf used on input line 59.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \includegraphics[width=0.3\textwidth]{m11_lu}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m8.pdf, id=317, 902.37125pt x 677.53125pt>
-File: Images/m8.pdf Graphic file (type pdf)
- <use Images/m8.pdf>
-Package pdftex.def Info: Images/m8.pdf used on input line 60.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
 
-<Images/m9.pdf, id=318, 902.37125pt x 677.53125pt>
-File: Images/m9.pdf Graphic file (type pdf)
- <use Images/m9.pdf>
-Package pdftex.def Info: Images/m9.pdf used on input line 61.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+! LaTeX Error: File `m12_lu' not found.
 
-<Images/m10.pdf, id=319, 902.37125pt x 677.53125pt>
-File: Images/m10.pdf Graphic file (type pdf)
- <use Images/m10.pdf>
-Package pdftex.def Info: Images/m10.pdf used on input line 62.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \includegraphics[width=0.3\textwidth]{m12_lu}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m11.pdf, id=320, 902.37125pt x 677.53125pt>
-File: Images/m11.pdf Graphic file (type pdf)
- <use Images/m11.pdf>
-Package pdftex.def Info: Images/m11.pdf used on input line 63.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
 
-<Images/m12.pdf, id=321, 902.37125pt x 677.53125pt>
-File: Images/m12.pdf Graphic file (type pdf)
- <use Images/m12.pdf>
-Package pdftex.def Info: Images/m12.pdf used on input line 64.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+! LaTeX Error: File `m13_lu' not found.
 
-<Images/m13.pdf, id=322, 902.37125pt x 677.53125pt>
-File: Images/m13.pdf Graphic file (type pdf)
- <use Images/m13.pdf>
-Package pdftex.def Info: Images/m13.pdf used on input line 65.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \includegraphics[width=0.3\textwidth]{m13_lu}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/m14.pdf, id=323, 902.37125pt x 677.53125pt>
-File: Images/m14.pdf Graphic file (type pdf)
- <use Images/m14.pdf>
-Package pdftex.def Info: Images/m14.pdf used on input line 66.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
 
-<Images/m17.pdf, id=324, 902.37125pt x 677.53125pt>
-File: Images/m17.pdf Graphic file (type pdf)
- <use Images/m17.pdf>
-Package pdftex.def Info: Images/m17.pdf used on input line 67.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+! LaTeX Error: File `m14_lu' not found.
 
-<Images/m18.pdf, id=325, 902.37125pt x 677.53125pt>
-File: Images/m18.pdf Graphic file (type pdf)
- <use Images/m18.pdf>
-Package pdftex.def Info: Images/m18.pdf used on input line 68.
-(pdftex.def)             Requested size: 129.00269pt x 96.85934pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 \includegraphics[width=0.3\textwidth]{m14_lu}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/ColorMapConEje.pdf, id=326, 1452.42625pt x 222.8325pt>
-File: Images/ColorMapConEje.pdf Graphic file (type pdf)
 
-<use Images/ColorMapConEje.pdf>
-Package pdftex.def Info: Images/ColorMapConEje.pdf used on input line 70.
-(pdftex.def)             Requested size: 430.00462pt x 65.96962pt.
+! LaTeX Error: File `m17_lu' not found.
 
-Overfull \hbox (10.0pt too wide) in paragraph at lines 56--72
- [][] 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \includegraphics[width=0.3\textwidth]{m17_lu}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-[10.10]
+
+! LaTeX Error: File `m18_lu' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 \includegraphics[width=0.3\textwidth]{m18_lu}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[9.9]
+
+! LaTeX Error: File `m_zoom' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.40 ...ludegraphics[width=0.48\textwidth]{m_zoom}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m14_lu_zoom' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.41 ...raphics[width=0.48\textwidth]{m14_lu_zoom}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m17_lu_zoom' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.42 ...raphics[width=0.48\textwidth]{m17_lu_zoom}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m18_lu_zoom' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 ...raphics[width=0.48\textwidth]{m18_lu_zoom}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m5' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \includegraphics[width=0.3\textwidth]{m5}
+                                              
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m6' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \includegraphics[width=0.3\textwidth]{m6}
+                                              
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m7' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \includegraphics[width=0.3\textwidth]{m7}
+                                              \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m8' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \includegraphics[width=0.3\textwidth]{m8}
+                                              
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m9' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \includegraphics[width=0.3\textwidth]{m9}
+                                              
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m10' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \includegraphics[width=0.3\textwidth]{m10}
+                                               \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m11' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 \includegraphics[width=0.3\textwidth]{m11}
+                                               
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m12' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.64 \includegraphics[width=0.3\textwidth]{m12}
+                                               
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m13' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.65 \includegraphics[width=0.3\textwidth]{m13}
+                                               \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m14' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \includegraphics[width=0.3\textwidth]{m14}
+                                               
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m17' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \includegraphics[width=0.3\textwidth]{m17}
+                                               
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `m18' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.68 \includegraphics[width=0.3\textwidth]{m18}
+                                               \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `ColorMapConEje' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.70 ...raphics[width=1\textwidth]{ColorMapConEje}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 94.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 6.5pt on input line 97.
+[10.10]
 
-Underfull \vbox (badness 5548) has occurred while \output is active []
+! LaTeX Error: File `ptosfijos' not found.
 
- [11.11 <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m5_lu.pdf> <C:/Use
-rs/luciana/Documents/GitHub/paperSPROT/Images/m6_lu.pdf> <C:/Users/luciana/Docu
-ments/GitHub/paperSPROT/Images/m7_lu.pdf> <C:/Users/luciana/Documents/GitHub/pa
-perSPROT/Images/m8_lu.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images
-/m9_lu.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m10_lu.pdf> <C
-:/Users/luciana/Documents/GitHub/paperSPROT/Images/m11_lu.pdf> <C:/Users/lucian
-a/Documents/GitHub/paperSPROT/Images/m12_lu.pdf> <C:/Users/luciana/Documents/Gi
-tHub/paperSPROT/Images/m13_lu.pdf> <C:/Users/luciana/Documents/GitHub/paperSPRO
-T/Images/m14_lu.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m17_l
-u.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m18_lu.pdf>]
-Underfull \vbox (badness 1189) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.144 ...graphics[width=0.48\textwidth]{ptosfijos}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
- [12.12 <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m_zoom.pdf> <C:/Us
-ers/luciana/Documents/GitHub/paperSPROT/Images/m14_lu_zoom.pdf> <C:/Users/lucia
-na/Documents/GitHub/paperSPROT/Images/m17_lu_zoom.pdf> <C:/Users/luciana/Docume
-nts/GitHub/paperSPROT/Images/m18_lu_zoom.pdf>] [13.13 <C:/Users/luciana/Documen
-ts/GitHub/paperSPROT/Images/m5.pdf> <C:/Users/luciana/Documents/GitHub/paperSPR
-OT/Images/m6.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m7.pdf> 
-<C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m8.pdf> <C:/Users/luciana/
-Documents/GitHub/paperSPROT/Images/m9.pdf> <C:/Users/luciana/Documents/GitHub/p
-aperSPROT/Images/m10.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/
-m11.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m12.pdf> <C:/User
-s/luciana/Documents/GitHub/paperSPROT/Images/m13.pdf> <C:/Users/luciana/Documen
-ts/GitHub/paperSPROT/Images/m14.pdf> <C:/Users/luciana/Documents/GitHub/paperSP
-ROT/Images/m17.pdf> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/m18.pd
-f> <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/ColorMapConEje.pdf>]
-<Images/ptosfijos.pdf, id=616, 907.39pt x 637.38126pt>
-File: Images/ptosfijos.pdf Graphic file (type pdf)
 
-<use Images/ptosfijos.pdf>
-Package pdftex.def Info: Images/ptosfijos.pdf used on input line 144.
-(pdftex.def)             Requested size: 206.40038pt x 144.98015pt.
+! LaTeX Error: File `divergen' not found.
 
-<Images/divergen.pdf, id=617, 907.39pt x 637.38126pt>
-File: Images/divergen.pdf Graphic file (type pdf)
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.145 ...egraphics[width=0.48\textwidth]{divergen}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<use Images/divergen.pdf>
-Package pdftex.def Info: Images/divergen.pdf used on input line 145.
-(pdftex.def)             Requested size: 206.40038pt x 144.98015pt.
 
-<Images/Periodos_prom.pdf, id=618, 907.39pt x 637.38126pt>
-File: Images/Periodos_prom.pdf Graphic file (type pdf)
+! LaTeX Error: File `Periodos_prom' not found.
 
-<use Images/Periodos_prom.pdf>
-Package pdftex.def Info: Images/Periodos_prom.pdf used on input line 146.
-(pdftex.def)             Requested size: 206.40038pt x 144.98015pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...hics[width=0.48\textwidth]{Periodos_prom}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/Puntos.pdf, id=619, 907.39pt x 637.38126pt>
-File: Images/Puntos.pdf Graphic file (type pdf)
- <use Images/Puntos.pdf>
-Package pdftex.def Info: Images/Puntos.pdf used on input line 147.
-(pdftex.def)             Requested size: 206.40038pt x 144.98015pt.
 
-<Images/HBPvsHhist.pdf, id=620, 907.39pt x 637.38126pt>
-File: Images/HBPvsHhist.pdf Graphic file (type pdf)
+! LaTeX Error: File `Puntos' not found.
 
-<use Images/HBPvsHhist.pdf>
-Package pdftex.def Info: Images/HBPvsHhist.pdf used on input line 157.
-(pdftex.def)             Requested size: 301.00192pt x 211.43546pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 ...udegraphics[width=0.48\textwidth]{Puntos}
+                                                  
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-<Images/HBPHhist.jpg, id=621, 1285.80376pt x 868.24374pt>
-File: Images/HBPHhist.jpg Graphic file (type jpg)
 
-<use Images/HBPHhist.jpg>
-Package pdftex.def Info: Images/HBPHhist.jpg used on input line 164.
-(pdftex.def)             Requested size: 301.00192pt x 203.25565pt.
+! LaTeX Error: File `HBPvsHhist' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...aphics[width=0.7\columnwidth]{HBPvsHhist}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.157 ...hics[width=0.7\columnwidth]{HBPvsHhist}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: File `HBPHhist' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...graphics[width=0.7\columnwidth]{HBPHhist}
+                                                  \\
+I could not locate the file with any of these extensions:
+.eps,.ps,.eps.gz,.ps.gz,.eps.Z
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.164 ...aphics[width=0.7\columnwidth]{HBPHhist}\\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/sl' in size <8> not av
 ailable
 (Font)              Font shape `OT1/LinuxBiolinumT-TLF/m/it' tried instead on i
 nput line 165.
 LaTeX Font Info:    Font shape `OT1/LinuxBiolinumT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 165.
-)
-(C:\Users\luciana\Documents\GitHub\paperSPROT\Conclusions.tex)
-Underfull \vbox (badness 1142) has occurred while \output is active []
-
- [14.14]
-Underfull \hbox (badness 10000) in paragraph at lines 118--121
+[11.11]) (C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\Conclusions.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
 
-
-Underfull \vbox (badness 1946) has occurred while \output is active []
-
- [15.15 <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/ptosfijos.pdf> <C:
-/Users/luciana/Documents/GitHub/paperSPROT/Images/divergen.pdf> <C:/Users/lucia
-na/Documents/GitHub/paperSPROT/Images/Periodos_prom.pdf> <C:/Users/luciana/Docu
-ments/GitHub/paperSPROT/Images/Puntos.pdf>]
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.bbl
+(C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.bbl
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 7.0pt on input line 48.
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
 (Font)              scaled to size 7.0pt on input line 54.
- [16.16 <C:/Users/luciana/Documents/GitHub/paperSPROT/Images/HBPvsHhist.pdf> <C
-:/Users/luciana/Documents/GitHub/paperSPROT/Images/HBPHhist.jpg>]
+ [12.12]
 Missing character: There is no Ð in font LinLibertineT-tlf-ot1!
 Missing character: There is no ó in font LinLibertineT-tlf-ot1!
 Missing character: There is no ó in font LinLibertineT-tlf-ot1!
@@ -1446,13 +1723,19 @@ Missing character: There is no ñ in font LinLibertineT-tlf-ot1!
 Missing character: There is no ó in font LinLibertineTI-tlf-ot1!
 Missing character: There is no ó in font LinLibertineTI-tlf-ot1!
 Missing character: There is no Ð in font LinLibertineT-tlf-ot1!
-) [17.17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
 
-(C:\Users\luciana\Documents\GitHub\paperSPROT\MasterPaperSprott.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
+Underfull \hbox (badness 6173) in paragraph at lines 380--389
+[]\OT1/LinuxLibertineT-TLF/m/n/7 Julien Clin-ton Sprott. 1993.  Au-to-matic gen
+-er-a-tion of strange at-trac-tors.  \OT1/LinuxLibertineT-TLF/m/it/7 Com-put-er
+s & Graph-ics \OT1/LinuxLibertineT-TLF/m/n/7 17, 3 (1993), 325--332.  \OT1/zi4/
+m/n/7 DOI:
+ []
 
+) [13.13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
+ (C:\Users\lucianaPC\Documents\GitHub\Sprot_ACM\MasterPaperSprott.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
 
  *File List*
   acmart.cls    2016/12/03 v1.25 Typesetting articles for Association of Comput
@@ -1507,13 +1790,14 @@ kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
   pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
      url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
- hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
+  hdvips.def    2012/11/06 v6.83m Hyperref driver for dvips
+ pdfmark.def    2012/11/06 v6.83m Hyperref definitions for pdfmark specials
 rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
     trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
 graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
-  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+   dvips.def    1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
   xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
    color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
 geometry.sty    2010/09/12 v5.6 Page Geometry
@@ -1558,7 +1842,6 @@ lmxntxexx.fd    2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
 MasterPaperSprott.out
 MasterPaperSprott.out
-supp-pdf.mkii
  upquote.sty    2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbat
 im
 ot1linuxbiolinumt-tlf.fd
@@ -1568,105 +1851,33 @@ ts1linuxlibertinet-tlf.fd
 Introduction.tex
 ProblemStatement.tex
 ChaoticSystemUnderStudy.tex
-Images/atractoreslindos.pdf
-Images/Atractor3_condominio_ok.pdf
-Images/Atractor5_condominio_ok.pdf
-Images/Atractor9_condominio_ok.pdf
-Images/Atractor2_condominio_ok.pdf
 AnalysisTools.tex
   ot1zi4.fd    2016/12/29 OT1/zi4 (Inconsolata)
 HardwareDigitalSimulation.tex
  Results.tex
-Images/m5_lu.pdf
-Images/m6_lu.pdf
-Images/m7_lu.pdf
-Images/m8_lu.pdf
-Images/m9_lu.pdf
-Images/m10_lu.pdf
-Images/m11_lu.pdf
-Images/m12_lu.pdf
-Images/m13_lu.pdf
-Images/m14_lu.pdf
-Images/m17_lu.pdf
-Images/m18_lu.pdf
-Images/m_zoom.pdf
-Images/m14_lu_zoom.pdf
-Images/m17_lu_zoom.pdf
-Images/m18_lu_zoom.pdf
-Images/m5.pdf
-Images/m6.pdf
-Images/m7.pdf
-Images/m8.pdf
-Images/m9.pdf
-Images/m10.pdf
-Images/m11.pdf
-Images/m12.pdf
-Images/m13.pdf
-Images/m14.pdf
-Images/m17.pdf
-Images/m18.pdf
-Images/ColorMapConEje.pdf
-Images/ptosfijos.pdf
-Images/divergen.pdf
-Images/Periodos_prom.pdf
-Images/Puntos.pdf
-Images/HBPvsHhist.pdf
-Images/HBPHhist.jpg
 Conclusions.tex
 MasterPaperSprott.bbl
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `MasterPaperSprott.out' has not changed.
 (rerunfilecheck)             Checksum: 9898F3A74E9AA1D7F17D1507FF0E0E07;719.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15891 strings out of 493921
- 250358 string characters out of 3144871
- 382524 words of memory out of 3000000
- 18182 multiletter control sequences out of 15000+200000
- 134258 words of font info for 457 fonts, out of 3000000 for 9000
+ 14853 strings out of 493922
+ 230566 string characters out of 3144887
+ 378381 words of memory out of 3000000
+ 17607 multiletter control sequences out of 15000+200000
+ 67522 words of font info for 127 fonts, out of 3000000 for 9000
  1002 hyphenation exceptions out of 8191
- 60i,14n,94p,956b,2654s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/newtx/libert
-inealt.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/inconsolata/i4-ot
-1-4.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_c6xmq
-r.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_naooyc.
-enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_lu7m2n.en
-c}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_xogrpz.enc}
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}{C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/enc/dvips/libertine/lbtn_c7kyj5.enc}<C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinBiolinumTB.pfb><
-C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinBiolinumTI.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinLibertineT
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinLiberti
-neTB.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/libertine/LinLib
-ertineTI.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/fxlri-5let
-ters.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/fxlri-7let
-ters.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/ntxsyralt.
-pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newtx/rtxmi7.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/newtx/txexs.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/txfonts/txsya.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/txfonts/txsyb.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/txfonts/txsyc.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
-blic/newtx/txsys.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/newt
-x/zxlri.pfb>
-Output written on MasterPaperSprott.pdf (17 pages, 44551938 bytes).
-PDF statistics:
- 787 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 49449 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 60i,14n,94p,1015b,2379s stack positions out of 5000i,500n,10000p,200000b,50000s
 
+Output written on MasterPaperSprott.dvi (13 pages, 145524 bytes).
